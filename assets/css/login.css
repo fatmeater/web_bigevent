@@ -1,0 +1,61 @@
+html,
+body {
+    margin:  0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /* no-repeat:不平铺效果 center:水平垂直居中 */
+    background: url('../images/login_bg.jpg') no-repeat center;
+    /* 图片填充模式 */
+    background-size: cover;
+}
+
+.loginAndRegBox {
+    /* 设置位置 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    /* 回自己位置的一半的距离  c3样式transform*/
+    transform: translate(-50%,-50%);
+}
+
+.title-box {
+    height: 60px;
+    background: url('../images/login_title.png') no-repeat center;
+}
+
+.reg-box {
+    display: none;
+}
+
+.layui-form {
+    padding: 0 30px;
+}
+
+.links {
+    /* css3 布局 */
+    display: flex;
+    /* 横向布局 end居右*/
+    justify-content: end;
+}
+
+.links a {
+    font-size: 12px;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-form-item .layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.layui-input {
+    padding-left: 35px;
+}
