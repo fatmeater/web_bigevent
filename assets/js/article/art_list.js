@@ -153,37 +153,7 @@ $(function () {
     })
 
     // 通过代理的方式为编辑按钮绑定点击事件
-    // $('tbody').on('click', '#btn-edit', function () {
-    //     // location.href = '/article/art_edit.html'
-    //     var id = $(this).attr('data-id')
-    //     $.ajax({
-    //         method: 'GET',
-    //         url: '/my/article/' + id,
-    //         success: function (res) {
-    //             if (res.status !== 0) {
-    //                 return layer.msg('获取文章失败！')
-    //             }
-    //             // console.log(res)
-    //             form.val("formEditInfo", res.data)
-    //             location.href = '/article/art_edit.html'
-    //         }
-    //     })
-    //         // articleContent()
-    // })
-
-    // 获取文章详情
-    // function articleContent() {
-    //     var id = $(this).attr('data-id')
-    //     $.ajax({
-    //         method: 'GET',
-    //         url: '/my/article/' + id,
-    //         success: function (res) {
-    //             if (res.status !== 0) {
-    //                 return layer.msg('获取文章失败！')
-    //             }
-    //             // console.log(res)
-    //             form.val("formEditInfo", res.data)
-    //         }
-    //     })
-    // }
+    $('tbody').on('click', '#btn-edit', function () {
+        location.href = '/大事件项目/code/article/art_edit.html'
+    })
 })

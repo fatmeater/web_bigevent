@@ -19,7 +19,7 @@ $.ajaxPrefilter(function (options) {
             // 1.强制清空token的值
             localStorage.removeItem('token')
             // 2.强制跳转到登录页
-            location.href = '/login.html'
+            location.href = '/大事件项目/code/login.html'
         }
     }
 })

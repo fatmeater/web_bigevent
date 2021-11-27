@@ -15,7 +15,7 @@ $(function () {
             // 1.清空本地存储中的token
             localStorage.removeItem('token')
             // 2。跳转到登录页面
-            location.href= '/login.html'
+            location.href = '/大事件项目/code/login.html'
             // 3.关闭 confirm询问框 (layui提供的官方语句)
             layer.close(index);
           });
